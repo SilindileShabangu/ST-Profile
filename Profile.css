@@ -341,12 +341,12 @@ footer {
 }
 
 
-.Gallary {display: grid; 
+.Gallery {display: grid; 
     
 
 }
 
-#Gallary img {
+#Gallery img {
     margin: 10px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -359,17 +359,17 @@ body {
     padding: 0;
 }
 
-#Gallary {
+#Gallery {
     padding: 20px;
 }
 
-.Gallary-grid {
+.Gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 10px;
 }
 
-.Gallary-grid img {
+.Gallery-grid img {
     width: 100%;
     height: auto;
     border-radius: 5px;
@@ -577,4 +577,70 @@ button {
 
 button:hover {
     background-color: #0056b3; /* Darkens button on hover */
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1em;
+}
+
+/* For tablets and larger screens */
+@media (min-width: 768px) {
+    .container {
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+}
+
+/* For mobile screens */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    .container {
+        width: 95%;
+    }
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(2, auto); /* 2 rows */
+    gap: 10px; /* Space between items */
+}
+
+.photo-item img {
+    width: 100%; /* Responsive images */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below images */
+}
+
+@media (max-width: 600px) {
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on small screens */
+    }
 }
