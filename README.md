@@ -26,4 +26,4 @@ To get started with this project, follow these steps:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/profile-web-app.git
+git clone https://github.com/SilindileShabangu/ST-Profile.git
