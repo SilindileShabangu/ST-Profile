@@ -212,13 +212,13 @@ html {
 }
 
 .profile-pic {
-    width: 150px; /* Set your desired width */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Optional: make it circular */
+    width: 150px; /
+    height: auto;
+    border-radius: 50%;
 }
 
 h1, h2 {
-    font-weight: bold; /* Makes the text bold */
+    font-weight: bold; 
     
     color: black; /* Set heading color to black */
 }
