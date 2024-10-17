@@ -107,7 +107,7 @@ img.profile-pic {
 }
 
 body {
-    background-color: #ecf0f1; /* Light Gray Background */
+    background-color: #ecf0f1; 
     color: #333; /* Dark Text */
 }
 
@@ -212,7 +212,7 @@ html {
 }
 
 .profile-pic {
-    width: 150px; /
+    width: 150px; 
     height: auto;
     border-radius: 50%;
 }
