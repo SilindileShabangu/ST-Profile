@@ -10,11 +10,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #fcfbfb;
 }
 header {
     background: #007BFF;
-    color: white;
+    color: rgb(248, 245, 245);
     padding: 20px;
     text-align: center;
 }
@@ -39,7 +39,7 @@ header {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: white;
+    background: rgb(111, 135, 155);
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -212,7 +212,7 @@ html {
 }
 
 .profile-pic {
-    width: 150px; 
+    width: 150px px; 
     height: auto;
     border-radius: 50%;
 }
@@ -243,7 +243,7 @@ h1, h2 {
 
   
   .hero-content h1 {
-    font-size: 3rem;
+    font-size: 300rem;
     margin-bottom: 20px;
   }
   
@@ -271,7 +271,7 @@ body {
 
 header {
     background: #0d5794;
-    color: #fff;
+    color: #f8f4f4;
     padding: 10px 0;
     text-align: center;
 }
@@ -281,7 +281,7 @@ nav {
 }
 
 nav a {
-    color: #fff;
+    color: #af1f1f;
     margin: 0 15px;
     text-decoration: none;
 }
@@ -643,4 +643,40 @@ p {
     .photo-grid {
         grid-template-columns: repeat(2, 1fr); /* 2 columns on small screens */
     }
+}
+
+
+
+body {
+    background-color: #f9f9f9;
+    color: #333333;
+}
+
+h1, h2, h3 {
+    color: #2b1b19;
+}
+
+a {
+    color: #2196F3;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.section {
+    border: 1px solid #2196F3;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+
+body {
+    background: linear-gradient(135deg, #FF6F61, #6FA3EF); /* Gradient from coral to light blue */
+    color: #021036; /* White text for contrast */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
 }
