@@ -703,8 +703,9 @@ body {
 
 .sidebar {
     position: fixed;
-    width: 250px; /* Width of the sidebar */
     height: 100%;
+    width: 250px; /* Width of the sidebar */
+    
     background-color: #333; /* Background color of the sidebar */
     color: white; /* Text color */
     padding: 20px; /* Padding inside the sidebar */
