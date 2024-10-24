@@ -683,7 +683,7 @@ button {
 
 
 body {
-    background-image: url('Tec.jpg'); /* Replace with your image path */
+    background-image: url('Tech.jpg'); /* Replace with your image path */
     background-size: cover; /* Ensures the image covers the entire area */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
