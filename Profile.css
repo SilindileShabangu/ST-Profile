@@ -10,7 +10,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fcfbfb;
+    background-color: #f9f9fa;
 }
 header {
     background: #007BFF;
@@ -279,12 +279,7 @@ body {
     line-height: 1.6;
 }
 
-header {
-    background: #0d5794;
-    color: #f8f4f4;
-    padding: 10px 0;
-    text-align: center;
-}
+
 
 nav {
     margin: 10px 0;
@@ -676,14 +671,14 @@ button {
 .section {
     border: 1px solid #2196F3;
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px 10px;
 }
 
 
 
 
 body {
-    background-image: url('Tech.jpg'); /* Replace with your image path */
+    background-image: url('Tec.jpg'); /* Replace with your image path */
     background-size: cover; /* Ensures the image covers the entire area */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -751,7 +746,7 @@ body {
 
 .sidebar {
     width: 250px; /* Width of the sidebar */
-    background-color: #383232; /* Background color of the sidebar */
+    background-color: #2a6986; /* Background color of the sidebar */
     color: white; /* Text color */
     padding: 20px; /* Padding inside the sidebar */
 }
