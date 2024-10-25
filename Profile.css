@@ -27,9 +27,7 @@ header {
     border-radius: 5px;
     transition: background 0.3s;
 }
-.nav a:hover {
-    background: rgba(255, 255, 255, 0.2);
-}
+
 
 .main-div {
     display: flex;
@@ -46,8 +44,8 @@ header {
     text-align: center; /* Center text and inline elements */;
 
     width: 90%; /* Use a percentage for responsiveness */
-    max-width: 1200px; /* Set a max width */
-    margin: 0 auto; /* Center the container */
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 .abstract {
     text-align: center;
@@ -56,10 +54,7 @@ header {
 .abstract h1 {
     margin: 0;
 }
-.abstract p {
-    font-size: 18px;
-    margin-top: 5px;
-}
+
 .skills, .projects, .education {
     margin-bottom: 20px;
 }
@@ -113,10 +108,7 @@ img.profile-pic {
     }
 }
 
-body {
-    background-color: #ecf0f1; 
-    color: #333; /* Dark Text */
-}
+
 
 h1, h2, h3 {
     color: #3f4142; /* Blue for Headings */
@@ -147,7 +139,7 @@ button:hover {
 }
 
 #about, #education, #projects {
-    background-color: #ffffff; /* White for Sections */
+    background-color: #8da3a3; /* Color for Sections */
     padding: 20px;
     border-radius: 8px;
     margin: 10px 0;
@@ -844,3 +836,4 @@ label {
     margin-bottom: 5px;
     display: block;
 }
+
