@@ -202,17 +202,11 @@ html {
 .container {
 }
 
-.image-container {
-    display: flex;
-    justify-content: center; /* Center image horizontally */
-    margin: 20px 0; /* Space around the image */
-}
 
-.profile-pic {
-    width: 150px px; 
-    height: auto;
-    border-radius: 50%;
-}
+
+
+
+
 
 h1, h2 {
     font-weight: bold; 
@@ -259,24 +253,7 @@ h1, h2 {
 
 
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-}
 
-
-
-nav {
-    margin: 10px 0;
-}
-
-nav a {
-    color: #af1f1f;
-    margin: 0 15px;
-    text-decoration: none;
-}
 
 section {
     padding: 20px;
@@ -643,7 +620,7 @@ body {
 }
 
 h1, h2, h3 {
-    color: #2b1b19;
+    color: #131111;
 }
 
 a {
@@ -837,3 +814,23 @@ label {
     display: block;
 }
 
+footer {
+    width: 100%; /* Full width */
+    background-color: #333; /* Dark background color */
+    color: white; /* Text color */
+    padding: 20px; /* Space inside the footer */
+    position: relative; /* Positioning context */
+    left: 0; /* Align to the left */
+    bottom: 0; /* Stick to the bottom */
+    text-align: center; /* Left-align text */
+}
+
+/* Optional styling for links in the footer */
+footer a {
+    color: #007BFF; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
