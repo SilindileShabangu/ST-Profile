@@ -211,7 +211,7 @@ html {
 h1, h2 {
     font-weight: bold; 
     
-    color: black; /* Set heading color to black */
+    color: rgb(8, 4, 4); /* Set heading color to black */
 }
 
 .image-container {
@@ -840,3 +840,4 @@ footer a:hover {
         flex-direction: column;
     }
 }
+
