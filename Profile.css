@@ -834,3 +834,9 @@ footer a {
 footer a:hover {
     text-decoration: underline; /* Underline on hover */
 }
+
+@media (max-width: 768px) {
+    .nav-menu {
+        flex-direction: column;
+    }
+}
