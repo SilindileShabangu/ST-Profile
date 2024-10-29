@@ -15,20 +15,49 @@
 
 
 <body>
-
-    <div id="chatbot">
-        <div id="chatbot-header" onclick="toggleChat()">Chat with me!</div>
-        <div id="chatbot-messages"></div>
-        <div id="chatbot-input">
-            <input type="text" id="user-input" placeholder="Type a message...">
-            <button onclick="sendMessage()">Send</button>
-        </div>
-    </div>
     
-    <button onclick="toggleChat()" style="position: fixed; bottom: 20px; right: 20px;">Chat</button>
-  
-    
+    <div id="chatbot"> 
 
+         
+
+        <div id="chatbot-header" onclick="toggleChat()">Chat with me! 
+
+            <span alt="Close"  
+
+                  id="cross"  
+
+                  onclick="cancel()">X</span> 
+
+        </div> 
+
+        <ul class="chatbox"> 
+
+         <li class="chat-incoming chat"> 
+
+        <p>Hey! How can I assist you today?</p> 
+
+         </li> 
+
+        </ul> 
+
+        <div id="chatbot-messages"></div> 
+
+         
+
+        <div id="chatbot-input"> 
+
+            <input type="text" id="user-input" placeholder="Type a message..."> 
+
+            <button onclick="sendMessage()">Send</button> 
+
+        </div> 
+
+    </div> 
+
+     
+
+    <button onclick="toggleChat()" style="position: fixed; bottom: 20px; right: 20px;">Chat</button> 
+    
 <div class="main-div">
         <div class="sidebar">
             <h2>Menu</h2>
