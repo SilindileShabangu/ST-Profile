@@ -25,7 +25,7 @@ function sendMessage() {
                 messages.innerHTML += `<div>Bot: I didn't quite get that. You can ask me to hire you, contact you, see your projects, or see your studies.</div>`;
             }
         
-            messages.scrollTop = messages.scrollHeight; 
+            messages.scrollTop = messages.scrollHeight;  // Scroll to the bottom
         
     }
 }
