@@ -893,6 +893,7 @@ body {
     overflow-y: auto; 
 
     border-bottom: 1px solid #ccc; 
+    background-color: white;
 
 } 
 
@@ -961,4 +962,8 @@ body {
     transition: all .5s; 
 
   } 
+
+  .chatbox{
+    background-color: white;
+  }
   

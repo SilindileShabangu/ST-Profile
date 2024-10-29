@@ -32,19 +32,35 @@ function sendMessage() {
 
                 messages.innerHTML += `<div>Bot: You can hire me by clicking <a href="mailto:silindileshabangu01@gmail.com">here </a>.</div>`; 
 
-            } else if (userInput.toLowerCase().includes('contact')) { 
+            } 
+            else if (userInput.toLowerCase().includes('contact')) { 
 
                 messages.innerHTML += `<div>Bot: You can contact me at <a href="mailto:silindileshabangu01@gmail.com">Email:silindileshabangu01@gmail.com.Cell 0724279984</a>.</div>`; 
 
-            } else if (userInput.toLowerCase().includes('projects')) { 
+            } 
+            else if (userInput.toLowerCase().includes('projects')) { 
 
                 messages.innerHTML += `<div>Bot: Check out my projects <a href="#projects">here</a>.</div>`; 
 
-            } else if (userInput.toLowerCase().includes('studies')) { 
+            }
+            else if (userInput.toLowerCase().includes('studies')) { 
 
+            
                 messages.innerHTML += `<div>Bot: View my studies <a href="#education">here</a>.</div>`; 
 
-            } else if (userInput.toLowerCase().includes('location')) { 
+            }
+
+             else if (userInput.toLowerCase().includes('gallery')) { 
+
+            messages.innerHTML += `<div>Bot: View my Gallery click <a href="#Gallery">here</a>.</div>`; 
+             }
+
+             else if (userInput.toLowerCase().includes('gallery')) { 
+
+                messages.innerHTML += `<div>Bot: View my Gallery click <a href="#About me">here</a>.</div>`; 
+                 }
+
+            else if (userInput.toLowerCase().includes('location')) { 
 
                 messages.innerHTML += `<div>Bot: To see my location click <a href="#Location">here</a>.</div>`; 
 
