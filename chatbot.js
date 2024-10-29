@@ -57,7 +57,7 @@ function sendMessage() {
 
              else if (userInput.toLowerCase().includes('gallery')) { 
 
-                messages.innerHTML += `<div>Bot: View my Gallery click <a href="#About me">here</a>.</div>`; 
+                messages.innerHTML += `<div>Bot: View my Gallery click <a href="#About">here</a>.</div>`; 
                  }
 
             else if (userInput.toLowerCase().includes('location')) { 
@@ -106,11 +106,10 @@ const chatbox = document.querySelector(".chatbox");
 
 let userMessage; 
 
-const API_KEY = key1 + key2 + key3
+const API_KEY = "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"; 
 
- const key1 = "sk-2wr7uGWi9549"
- const key2 = "C3NnpfXPT3B"
- const key3 = "lbkFJWxjIND5TnoOYJJmpXwWG"
+ 
+
 //OpenAI Free APIKey 
 
  
