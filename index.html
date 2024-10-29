@@ -10,8 +10,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=0.5"> <!---link to css-->
     <title>Silindile Shabangu - Portfolio</title>  
 
+    
 </head>
+
+
 <body>
+
+    <div id="chatbot">
+        <div id="chatbot-header" onclick="toggleChat()">Chat with me!</div>
+        <div id="chatbot-messages"></div>
+        <div id="chatbot-input">
+            <input type="text" id="user-input" placeholder="Type a message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    
+    <button onclick="toggleChat()" style="position: fixed; bottom: 20px; right: 20px;">Chat</button>
+  
+    
 
 <div class="main-div">
         <div class="sidebar">
@@ -180,6 +196,7 @@
         </div>
     </div>
 </div>
+<script src="chatbot.js" defer></script>
 
 
         
