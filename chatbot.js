@@ -54,13 +54,20 @@ function sendMessage() {
 
             }
 
-            else if (userInput.toLowerCase().includes('About', 'yourself')) { 
 
-                messages.innerHTML += `<div class="chat-bubble bot">Bot: My name is Silindile .</div>`; 
+            else if (userInput.toLowerCase().includes('hi' || "hello" || 'hey')) { 
+
+                messages.innerHTML += `<div class="chat-bubble bot">Bot: Check out my projects .</div>`; 
+            }
+
+
+            else if (userInput.toLowerCase().includes('about')) { 
+
+                messages.innerHTML += `<div class="chat-bubble bot">Bot:😊 My name is Silindile Shabangu and i am 26 years old  for more information about me click <a href="#about">here</a>.</div>`; 
 
             }
 
-            else if (userInput.toLowerCase().includes('studies')) { 
+            else if (userInput.toLowerCase().includes('studies, education')) { 
 
             
                 messages.innerHTML += `<div class="chat-bubble bot">Bot: View my studies <a href="#education">here</a>.</div>`; 
