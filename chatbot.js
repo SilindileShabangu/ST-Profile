@@ -20,7 +20,7 @@ function sendMessage() {
 
         if (userInput) { 
 
-            messages.innerHTML += `<div>User: ${userInput}</div>`; 
+            messages.innerHTML += `<div class="chat-bubble user" >User: ${userInput}</div>`; 
 
             document.getElementById('user-input').value = ''; 
 
@@ -30,7 +30,7 @@ function sendMessage() {
 
             if (userInput.toLowerCase().includes('hire')) { 
 
-                messages.innerHTML += `<div>Bot: You can hire me by clicking <a href="mailto:silindileshabangu01@gmail.com">here </a>.</div>`; 
+                messages.innerHTML += `<div class="chat-bubble bot">Bot: You can hire me by clicking <a href="mailto:silindileshabangu01@gmail.com">here </a>.</div>`; 
 
             } 
 
@@ -45,38 +45,38 @@ function sendMessage() {
 
             else if (userInput.toLowerCase().includes('contact')) { 
 
-                messages.innerHTML += `<div>Bot: You can contact me at <a href="mailto:silindileshabangu01@gmail.com">Email:silindileshabangu01@gmail.com.Cell 0724279984</a>.</div>`; 
+                messages.innerHTML += `<div class="chat-bubble bot">Bot: You can contact me at <a href="mailto:silindileshabangu01@gmail.com"><br> Email:silindileshabangu01</br>@gmail.comCell 0724279984</a>.</div>`; 
 
             } 
             else if (userInput.toLowerCase().includes('projects')) { 
 
-                messages.innerHTML += `<div>Bot: Check out my projects <a href="#projects">here</a>.</div>`; 
+                messages.innerHTML += `<div class="chat-bubble bot">Bot: Check out my projects <a href="#projects">here</a>.</div>`; 
 
             }
             else if (userInput.toLowerCase().includes('studies')) { 
 
             
-                messages.innerHTML += `<div>Bot: View my studies <a href="#education">here</a>.</div>`; 
+                messages.innerHTML += `<div class="chat-bubble bot">Bot: View my studies <a href="#education">here</a>.</div>`; 
 
             }
 
              else if (userInput.toLowerCase().includes('gallery')) { 
 
-            messages.innerHTML += `<div>Bot: View my Gallery click <a href="#Gallery">here</a>.</div>`; 
+            messages.innerHTML += `<div class="chat-bubble bot">Bot: View my Gallery click <a href="#Gallery">here</a>.</div>`; 
              }
 
              else if (userInput.toLowerCase().includes('gallery')) { 
 
-                messages.innerHTML += `<div>Bot: View my Gallery click <a href="#About">here</a>.</div>`; 
+                messages.innerHTML += `<div class="chat-bubble bot">Bot: View my Gallery click <a href="#About">here</a>.</div>`; 
                  }
 
             else if (userInput.toLowerCase().includes('location')) { 
 
-                messages.innerHTML += `<div>Bot: To see my location click <a href="#Location">here</a>.</div>`; 
+                messages.innerHTML += `<div class="chat-bubble bot">Bot: To see my location click <a href="#Location">here</a>.</div>`; 
 
             } else { 
 
-                messages.innerHTML += `<div>Bot: I didn't quite get that. You can ask me to hire you, contact you, see your projects, or see your studies.</div>`; 
+                messages.innerHTML += `<div class="chat-bubble bot">Bot: I didn't quite get that. You can ask me to hire you, contact you, see your projects, or see your studies.</div>`; 
 
             } 
 

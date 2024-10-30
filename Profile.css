@@ -1003,9 +1003,29 @@ body {
     overflow-y: scroll;
     background-color: #dcdcdc85;
     font-size: 16px;
-    color: green;
+    color: rgb(20, 51, 224);
     font-weight: 600;
     margin-top: -10px;
     margin-left: -15px;
     height: 71px;
   }
+
+  .chat-bubble {
+    max-width: 89%; /* Limit the width of the bubbles */
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin: 5px 0;
+    position: relative;
+    display: inline-block;
+}
+
+.user {
+    background-color: #cce5ff; /* Light blue for user messages */
+    align-self: flex-end; /* Align to the right */
+}
+
+.bot {
+    background-color: #e2e3e5; /* Light gray for bot messages */
+    align-self: flex-start; /* Align to the left */
+
+}
