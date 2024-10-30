@@ -33,6 +33,16 @@ function sendMessage() {
                 messages.innerHTML += `<div>Bot: You can hire me by clicking <a href="mailto:silindileshabangu01@gmail.com">here </a>.</div>`; 
 
             } 
+
+            if (userInput.toLowerCase().includes('Hi')) { 
+
+                messages.innerHTML += `<div>hfhyhg</div>`; 
+
+            } 
+
+
+
+
             else if (userInput.toLowerCase().includes('contact')) { 
 
                 messages.innerHTML += `<div>Bot: You can contact me at <a href="mailto:silindileshabangu01@gmail.com">Email:silindileshabangu01@gmail.com.Cell 0724279984</a>.</div>`; 

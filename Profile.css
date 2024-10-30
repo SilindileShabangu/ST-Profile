@@ -867,12 +867,14 @@ body {
     flex-direction: column; 
 
     box-shadow: 0 0 10px rgba(8, 8, 8, 0.3); 
+    
+    
 
 } 
 
 #chatbot-header { 
 
-    background-color: #13ebb5; 
+    background-color: #12b4b9; 
 
     color: rgb(253, 5, 5); 
 
@@ -929,7 +931,9 @@ body {
 
 } 
 
- 
+ li {
+    list-style-type: none;
+ }
 
  
 
