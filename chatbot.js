@@ -45,7 +45,7 @@ function sendMessage() {
 
             else if (userInput.toLowerCase().includes('contact')) { 
 
-                messages.innerHTML += `<div class="chat-bubble bot">Bot: You can contact me at <a href="mailto:silindileshabangu01@gmail.com"><br> Email:silindileshabangu01</br>@gmail.comCell 0724279984</a>.</div>`; 
+                messages.innerHTML += `<div class="chat-bubble bot">Bot:You can get in touch with me by clicking <a href="#Get In Touch">here</a> or You can contact me at <a href="mailto:silindileshabangu01@gmail.com"><br> Email:silindileshabangu01</br>@gmail.comCell 0724279984</a>.</div>`; 
 
             } 
             else if (userInput.toLowerCase().includes('projects')) { 
@@ -53,12 +53,35 @@ function sendMessage() {
                 messages.innerHTML += `<div class="chat-bubble bot">Bot: Check out my projects <a href="#projects">here</a>.</div>`; 
 
             }
+
+            else if (userInput.toLowerCase().includes('About', 'yourself')) { 
+
+                messages.innerHTML += `<div class="chat-bubble bot">Bot: My name is Silindile .</div>`; 
+
+            }
+
             else if (userInput.toLowerCase().includes('studies')) { 
 
             
                 messages.innerHTML += `<div class="chat-bubble bot">Bot: View my studies <a href="#education">here</a>.</div>`; 
 
             }
+
+            else if (userInput.toLowerCase().includes('education')) { 
+
+            
+                messages.innerHTML += `<div class="chat-bubble bot">Bot: View my studies <a href="#education">here</a>.</div>`; 
+
+            }
+
+            else if (userInput.toLowerCase().includes('skills')) { 
+
+            
+                messages.innerHTML += `<div class="chat-bubble bot">Bot: View my studies <a href="#skills">here</a>.</div>`; 
+
+            }
+
+
 
              else if (userInput.toLowerCase().includes('gallery')) { 
 
@@ -82,7 +105,7 @@ function sendMessage() {
 
          
 
-            messages.scrollTop = messages.scrollHeight;  // Scroll to the bottom 
+            // messages.scrollTop = messages.scrollHeight;  // Scroll to the bottom 
 
          
 
