@@ -27,8 +27,8 @@ function sendMessage() {
             messages.innerHTML += `<div class="chat-bubble bot">Bot: I have a Diploma in Information Technology Management 📚 and a Bachelor of Information Technology in Business Systems from Rosebank College🏫. For more information, click <a href="#education">here</a>.</div>`;
         } else if (userInput.toLowerCase().includes('skills')) {
             messages.innerHTML += `<div class="chat-bubble bot">Bot: View my skills <a href="#skills">here</a>.</div>`;
-        } else if (userInput.toLowerCase().includes('gallery')) {
-            messages.innerHTML += `<div class="chat-bubble bot">Bot: View my Gallery <a href="#Gallery">here</a>.</div>`;
+        } else if (userInput.toLowerCase().includes('gallery')|| userInput.toLowerCase().includes('pictures')) {
+            messages.innerHTML += `<div class="chat-bubble bot">Bot: To view my Gallery 🖼️please click <a href="#Gallery">here</a>.</div>`;
         } else if (userInput.toLowerCase().includes('location')) {
             messages.innerHTML += `<div class="chat-bubble bot">Bot: To see my location, click <a href="#Location">here</a>.</div>`;
         } else {
