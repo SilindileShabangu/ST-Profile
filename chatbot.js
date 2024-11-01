@@ -31,7 +31,12 @@ function sendMessage() {
             messages.innerHTML += `<div class="chat-bubble bot">Bot: To view my Gallery 🖼️please click <a href="#Gallery">here</a>.</div>`;
         } else if (userInput.toLowerCase().includes('location')) {
             messages.innerHTML += `<div class="chat-bubble bot">Bot: To see my location, click <a href="#Location">here</a>.</div>`;
-        } else {
+        } 
+        
+        else if (userInput.toLowerCase().includes('cv')) {
+            messages.innerHTML += `<div class="chat-bubble bot">Bot: To view my CV click <a href="ST Shabangu CV Updated.pdf">here </a>to open or download.</div>`;
+        }
+        else {
             messages.innerHTML += `<div class="chat-bubble bot">Bot:😔 I didn't quite get that.</div>`;
         }
 

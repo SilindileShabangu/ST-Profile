@@ -221,7 +221,7 @@ h1, h2 {
 }
 
 .profile-pic {
-    width: 150px; /* Set your desired width */
+    width: 150px; /* Set width */
     height: auto; /* Maintain aspect ratio */
     border-radius: 50%; /* Optional: make it circular */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
@@ -882,6 +882,7 @@ body {
 
     text-align: center; 
     
+    
 
     cursor: pointer; 
 
@@ -915,6 +916,8 @@ body {
     padding: 10px; 
 
     border: none; 
+
+    background-color: #07fcbf;
 
 } 
 
@@ -1032,3 +1035,22 @@ body {
 }
 
 
+.section {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    margin: 20px 0; /* Space around sections */
+}
+
+.section img {
+    width: 300px; /* Set a consistent width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: make it circular */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    margin: 15px 0; /* Margin around images */
+}
+
+.section img:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
