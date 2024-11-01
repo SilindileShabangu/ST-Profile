@@ -503,7 +503,7 @@ html, body {
 
 
 body {
-    background-image: url('path/to/your/image.jpg'); /* Replace with your image path */
+    background-image: url('path/to/your/image.jpg'); /* Replace with  image path */
     background-size: cover; /* Ensures the image covers the entire background */
     background-position: center; /* Centers the image */
     background-attachment: fixed; /* Keeps the background still */
@@ -642,7 +642,7 @@ button {
 
 
 body {
-    background-image: url('Tec.jpg'); /* Replace with your image path */
+    background-image: url('Tec.jpg'); /* Replace with  image path */
     background-size: cover; /* Ensures the image covers the entire area */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -860,7 +860,7 @@ body {
 
     border: 1px solid #a5a4a4; 
 
-    border-radius: 5px; 
+    border-radius: 7px; 
 
     display: none; 
 
@@ -874,13 +874,14 @@ body {
 
 #chatbot-header { 
 
-    background-color: #12b4b9; 
+    background-color: #07fcbf; 
 
     color: rgb(253, 5, 5); 
 
     padding: 10px; 
 
     text-align: center; 
+    
 
     cursor: pointer; 
 

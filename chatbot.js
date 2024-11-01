@@ -14,17 +14,17 @@ function sendMessage() {
 
         // Respond to specific queries
         if (userInput.toLowerCase().includes('hire')) {
-            messages.innerHTML += `<div class="chat-bubble bot">Bot: You can hire me by clicking <a href="mailto:silindileshabangu01@gmail.com">here</a>.</div>`;
+            messages.innerHTML += `<div class="chat-bubble bot">Bot: You want to hire me by clicking <a href="mailto:silindileshabangu01@gmail.com">here</a>.</div>`;
         } else if (userInput.toLowerCase().includes('contact')) {
             messages.innerHTML += `<div class="chat-bubble bot">Bot: You can get in touch with me by clicking <a href="#Get In Touch">here</a> or contact me at <a href="mailto:silindileshabangu01@gmail.com">Email: silindileshabangu01@gmail.com, Cell: 0724279984</a>.</div>`;
         } else if (userInput.toLowerCase().includes('projects')) {
-            messages.innerHTML += `<div class="chat-bubble bot">Bot: Check out my projects <a href="#projects">here</a>.</div>`;
+            messages.innerHTML += `<div class="chat-bubble bot">Bot: These are the projects that i have implemented Human Computer Interaction🧑‍💻Work Intergrated Learning🧑‍💻System Analysis and Design To view and download my projects click<a href="#projects">here</a>.</div>`;
         } else if (userInput.toLowerCase().includes('hi') || userInput.toLowerCase().includes('hello') || userInput.toLowerCase().includes('hey')) {
             messages.innerHTML += `<div class="chat-bubble bot">Bot: Hello 👋 How can I help you today?</div>`;
         } else if (userInput.toLowerCase().includes('about')) {
-            messages.innerHTML += `<div class="chat-bubble bot">Bot: 😊 My name is Silindile Shabangu and I am 26 years old. Want to know more about me? Click <a href="#about">here</a>.</div>`;
+            messages.innerHTML += `<div class="chat-bubble bot">Bot: 😊 My name is Silindile Shabangu and I am 27 years old. Want to know more about me? Click <a href="#about">here</a>.</div>`;
         } else if (userInput.toLowerCase().includes('studies') || userInput.toLowerCase().includes('education')) {
-            messages.innerHTML += `<div class="chat-bubble bot">Bot: I have a Diploma in Information Technology Management 📚 and a Bachelor of Information Technology in Business Systems from Rosebank College🏫. For more information, click <a href="#education">here</a>.</div>`;
+            messages.innerHTML += `<div class="chat-bubble bot">Bot: I have a Diploma in Information Technology Management 📚 and a Bachelor of Information Technology in Business Systems from Rosebank College🏫. For more information, click<a href="#education">here</a>.</div>`;
         } else if (userInput.toLowerCase().includes('skills')) {
             messages.innerHTML += `<div class="chat-bubble bot">Bot: View my skills <a href="#skills">here</a>.</div>`;
         } else if (userInput.toLowerCase().includes('gallery')|| userInput.toLowerCase().includes('pictures')) {
@@ -32,7 +32,7 @@ function sendMessage() {
         } else if (userInput.toLowerCase().includes('location')) {
             messages.innerHTML += `<div class="chat-bubble bot">Bot: To see my location, click <a href="#Location">here</a>.</div>`;
         } else {
-            messages.innerHTML += `<div class="chat-bubble bot">Bot: I didn't quite get that. You can ask me to hire you, contact you, see your projects, or see your studies.</div>`;
+            messages.innerHTML += `<div class="chat-bubble bot">Bot:😔 I didn't quite get that.</div>`;
         }
 
         messages.scrollTop = messages.scrollHeight;  // Scroll to the bottom
@@ -44,7 +44,7 @@ const sendChatBtn = document.querySelector('.chat-input button');
 const chatbox = document.querySelector(".chatbox");
 
 let userMessage;
-const API_KEY = "your-api-key-here"; // Replace with your actual API key
+const API_KEY = "your-api-key-here"; 
 
 const createChatLi = (message, className) => {
     const chatLi = document.createElement("li");
