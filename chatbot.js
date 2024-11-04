@@ -10,7 +10,7 @@ function sendMessage() {
 
     if (userInput) {
         messages.innerHTML += `<div class="chat-bubble user">User: ${userInput}</div>`;
-        document.getElementById('user-input').value = '';
+        document.getElementById('user-input').value = '';   // Div for header 
 
         // Respond to specific queries
         if (userInput.toLowerCase().includes('hire')) {
@@ -31,6 +31,13 @@ function sendMessage() {
             messages.innerHTML += `<div class="chat-bubble bot">Bot: To view my Gallery 🖼️please click <a href="#Gallery">here</a>.</div>`;
         } else if (userInput.toLowerCase().includes('location')) {
             messages.innerHTML += `<div class="chat-bubble bot">Bot: To see my location, click <a href="#Location">here</a>.</div>`;
+
+        }else if (userInput.toLowerCase().includes('how') || userInput.toLowerCase().includes('doing') || userInput.toLowerCase().includes('feeling')) {
+                messages.innerHTML += `<div class="chat-bubble bot">Bot: I am doing well 😊Thank you for asking!!</div>`;
+        
+        }else if (userInput.toLowerCase().includes('Where') || userInput.toLowerCase().includes('live') || userInput.toLowerCase().includes('from') || userInput.toLowerCase().includes('stay')) {
+                    messages.innerHTML += `<div class="chat-bubble bot">Bot: I am from a township in Nelspruit called Mastsulu🏚️ For more information and coordinates click <a href="#Location">here</a>.  </div>`;
+
         } 
         
         else if (userInput.toLowerCase().includes('cv')) {
@@ -40,7 +47,7 @@ function sendMessage() {
             messages.innerHTML += `<div class="chat-bubble bot">Bot:😔 I didn't quite get that.</div>`;
         }
 
-        messages.scrollTop = messages.scrollHeight;  // Scroll to the bottom
+        messages.scrollTop = messages.scrollHeight;  // For scrolling
     }
 }
 
