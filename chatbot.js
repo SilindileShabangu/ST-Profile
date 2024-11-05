@@ -12,7 +12,7 @@ function sendMessage() {
         messages.innerHTML += `<div class="chat-bubble user">User: ${userInput}</div>`;
         document.getElementById('user-input').value = '';   // Div for header 
 
-        // Respond to specific queries
+        // Respond to queries
         if (userInput.toLowerCase().includes('hire')) {
             messages.innerHTML += `<div class="chat-bubble bot">Bot: You want to hire me by clicking <a href="mailto:silindileshabangu01@gmail.com">here</a>.</div>`;
         } else if (userInput.toLowerCase().includes('contact')) {

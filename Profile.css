@@ -874,7 +874,7 @@ body {
 
 #chatbot-header { 
 
-    background-color: #07fcbf; 
+    background-color: #27bd97; 
 
     color: rgb(253, 5, 5); 
 
@@ -917,7 +917,7 @@ body {
 
     border: none; 
 
-    background-color: #07fcbf;
+    background-color: #27bd97;
 
 } 
 
@@ -1024,12 +1024,12 @@ body {
 }
 
 .user {
-    background-color: #cce5ff; /* Light blue for user messages */
+    background-color: #cce5ff; 
     align-self: flex-end; /* Align to the right */
 }
 
 .bot {
-    background-color: #e2e3e5; /* Light gray for bot messages */
+    background-color: #e2e3e5; 
     align-self: flex-start; /* Align to the left */
 
 }
@@ -1038,19 +1038,19 @@ body {
 .section {
     display: flex;
     flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    margin: 20px 0; /* Space around sections */
+    align-items: center; 
+    margin: 20px 0; 
 }
 
 .section img {
     width: 300px; /* Set a consistent width */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Optional: make it circular */
+    height: auto; 
+    border-radius: 50%; 
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
-    margin: 15px 0; /* Margin around images */
+    margin: 15px 0; 
 }
 
 .section img:hover {
-    transform: scale(1.1); /* Scale up the image on hover */
+    transform: scale(1.1); 
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
 }
