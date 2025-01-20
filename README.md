@@ -4,6 +4,8 @@
 
 This is a simple **Profile Web App** built using **HTML** and **CSS**. The app allows users to create and display their personal profile, including details such as name, email, location, bio, and social media links. The web app is designed to be responsive and user-friendly.
 
+## Deployment Link: https://st-profile.vercel.app/
+
 ## Features
 
 - **Profile Information**: Displays user's name, email, location, and bio.
